@@ -8,8 +8,8 @@ const shield = new Shield("Bouclier");
 
 /** Create Heracles  */
 const heracles = new Fighter("🧔 Heracles", 20, 6);
-heracles.weapon = sword.damage;
-heracles.shield = shield.protection;
+heracles.weapon = sword;
+heracles.shield = shield;
 
 /** Create the opponent  */
 const boar = new Fighter("🐗 Erymanthian Boar", 25, 12);
